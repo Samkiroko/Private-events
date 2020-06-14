@@ -5,14 +5,8 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-# Private-Events
+## Private-Events
 <br />
-<p align="center">
-  <a href="https://www.microverse.org/">
-  
- ![image](https://user-images.githubusercontent.com/43377799/84581738-2a7e5c00-aded-11ea-913b-b65c47919a6b.png)
-
-  </a>
 
   <h4 align="center">
 	 Private Events
