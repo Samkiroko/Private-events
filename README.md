@@ -23,7 +23,7 @@
   <p align="center">
     Users signin and create events and then view various events in order of previous, upcoming and present events. Users can send invitations to eents and also attend events created by other users. Events take place at a specific date and at a location.
     <br />
-    <a href="https://github.com/Samkiroko/Private-events/blob/master/README.md"><strong>Explore the docs 📚</strong></a>
+    <a href="https://github.com/Samkiroko/Private-events/blob/features/README.md"><strong>Explore the docs 📚</strong></a>
     <br />
     <br />
 	  🖊️
@@ -102,4 +102,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 [issues-shield]: https://img.shields.io/github/issues/Samkiroko/Private-events
 [issues-url]: https://github.com/Samkiroko/Private-events/issues
 [license-shield]: https://img.shields.io/github/license/Samkiroko/Private-events
-[license-url]: https://github.com/Samkiroko/Private-events/blob/master/LICENSE.txt
+[license-url]: https://github.com/Samkiroko/Private-events/blob/features/LICENSE.txt
