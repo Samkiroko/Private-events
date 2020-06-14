@@ -9,7 +9,8 @@
 <br />
 <p align="center">
   <a href="https://www.microverse.org/">
-    <img src="docs/microverse.png" alt="Logo" width="80" height="80">
+    ![image](https://user-images.githubusercontent.com/43377799/84581738-2a7e5c00-aded-11ea-913b-b65c47919a6b.png)
+
   </a>
 
   <h4 align="center">
