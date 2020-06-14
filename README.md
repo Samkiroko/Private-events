@@ -9,7 +9,8 @@
 <br />
 <p align="center">
   <a href="https://www.microverse.org/">
-    ![image](https://user-images.githubusercontent.com/43377799/84581738-2a7e5c00-aded-11ea-913b-b65c47919a6b.png)
+  
+ ![image](https://user-images.githubusercontent.com/43377799/84581738-2a7e5c00-aded-11ea-913b-b65c47919a6b.png)
 
   </a>
 
