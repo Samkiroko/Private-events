@@ -19,7 +19,7 @@
   </div>
   <div class="row">
     <h2 class="header-1 text-light bg-success">Events you have been booked to attend. <br>
-       Upcoming Events of User: <%= @user.name.capitalize %></h1>
+      Upcoming Events of User: <%= @user.name.capitalize %></h1>
     <div class="badge badge-pill badge-dark mb-3"><span class="badge badge-light">
         <%= pluralize(@upcoming_events.count, "upcoming event") %>.</span> </div>
     <div class="container-cards">
@@ -36,7 +36,7 @@
     <hr>
   </div>
   <div class="row">
-    <h2 class="header-1 bg-warning">Past events created by User:<%= @user.name.capitalize %></h1>
+    <h2 class="header-1 bg-warning">Past events booked to attend to by User:<%= @user.name.capitalize %></h1>
     <div class="badge badge-pill badge-dark"><span class="badge badge-light">
         <%= pluralize(@prev_events.count, "previous event") %>.</span> </div>
     <div class="container-cards">

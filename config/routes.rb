@@ -2,7 +2,7 @@
 
 Rails.application.routes.draw do
   get 'staticpage/home'
-  root 'staticpage#home'
+  root 'events#index'
 
   get '/logout', to: 'users#logout'
   resources :users
