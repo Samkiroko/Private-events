@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module UsersHelper
   def signed?
     !current_user.nil?

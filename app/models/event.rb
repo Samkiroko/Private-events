@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Event < ApplicationRecord
   has_many :user_events
   has_many :attendees, -> { distinct }, through: :user_events, source: 'user'
