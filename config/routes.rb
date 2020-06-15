@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  get 'staticpage/home'
+ get 'staticpage/home'
   root 'events#index'
 
   get '/logout', to: 'users#logout'

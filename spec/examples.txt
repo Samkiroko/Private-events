@@ -1,24 +1,5 @@
-example_id                                        | status | run_time        |
-------------------------------------------------- | ------ | --------------- |
-./spec/integration/authentication_spec.rb[1:1]    | failed | 0.01432 seconds |
-./spec/integration/events_management_spec.rb[1:1] | failed | 0.01165 seconds |
-./spec/integration/events_management_spec.rb[1:2] | failed | 0.07306 seconds |
-./spec/integration/events_management_spec.rb[1:3] | failed | 0.06572 seconds |
-./spec/models/event_spec.rb[1:1:1]                | passed | 0.00496 seconds |
-./spec/models/event_spec.rb[1:1:2]                | passed | 0.00299 seconds |
-./spec/models/event_spec.rb[1:1:3]                | passed | 0.19615 seconds |
-./spec/models/event_spec.rb[1:1:4]                | passed | 0.00132 seconds |
-./spec/models/event_spec.rb[1:1:5]                | passed | 0.00946 seconds |
-./spec/models/event_spec.rb[1:2:1]                | passed | 0.01644 seconds |
-./spec/models/event_spec.rb[1:2:2]                | passed | 0.02676 seconds |
-./spec/models/user_spec.rb[1:1:1]                 | passed | 0.00061 seconds |
-./spec/models/user_spec.rb[1:1:2]                 | passed | 0.00146 seconds |
-./spec/models/user_spec.rb[1:1:3]                 | passed | 0.0012 seconds  |
-./spec/models/user_spec.rb[1:1:4]                 | passed | 0.00185 seconds |
-./spec/models/user_spec.rb[1:1:5]                 | passed | 0.00844 seconds |
-./spec/models/user_spec.rb[1:1:6]                 | passed | 0.00295 seconds |
-./spec/models/user_spec.rb[1:2:1]                 | passed | 0.01016 seconds |
-./spec/models/user_spec.rb[1:2:2]                 | passed | 0.00695 seconds |
-./spec/models/user_spec.rb[1:2:3]                 | passed | 0.01579 seconds |
-./spec/views/sessions/new.html.erb_spec.rb[1:1]   | failed | 0.02389 seconds |
-./spec/views/sessions/new.html.erb_spec.rb[1:2]   | passed | 0.01237 seconds |
+example_id                                              | status  | run_time        |
+------------------------------------------------------- | ------- | --------------- |
+./spec/controllers/staticpage_controller_spec.rb[1:1:1] | passed  | 0.06595 seconds |
+./spec/helpers/staticpage_helper_spec.rb[1:1]           | pending | 0.00002 seconds |
+./spec/views/staticpage/home.html.erb_spec.rb[1:1]      | pending | 0.00001 seconds |
