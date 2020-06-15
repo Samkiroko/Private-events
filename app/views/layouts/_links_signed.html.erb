@@ -1,0 +1,3 @@
+<li class="user-btn "><%= link_to "#{current_user.name.split(" ")[0]} Events" , user_path(current_user) %></li>
+<li><%= link_to "New Event", new_event_path %></li>
+<li><%= link_to "Logout", logout_path %></li>
