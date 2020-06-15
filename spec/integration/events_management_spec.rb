@@ -3,7 +3,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Events Manager', type: :feature do
-  let(:user) { User.create(name: 'Maru', lastname: 'Odiaka') }
+  let(:user) { User.create(name: 'Samuel', lastname: 'Kiroko') }
   let(:event) { Event.create(description: 'party', user_id: user.id) }
   scenario 'Events index page' do
     visit root_path

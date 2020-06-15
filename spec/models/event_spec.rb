@@ -5,7 +5,7 @@ require 'rails_helper'
 RSpec.describe Event, type: :model do
   context 'Validation tests' do
     subject { Event.new }
-    let(:creator) { User.create(name: 'Audrey', lastname: 'Odiaka') }
+    let(:creator) { User.create(name: 'John', lastname: 'Njenga') }
 
     it 'valid with valid attributes' do
       subject.description = 'Any description'
@@ -35,9 +35,9 @@ RSpec.describe Event, type: :model do
   end
 
   context 'Associations tests' do
-    let(:user) { User.create(name: 'Maru', lastname: 'Odiaka') }
+    let(:user) { User.create(name: 'Samuel', lastname: 'Kiroko') }
     let(:event) { Event.create(description: 'party', user_id: user.id) }
-    let(:invitee) { User.create(name: 'Anita', lastname: 'Anyaiwe') }
+    let(:invitee) { User.create(name: 'Joy', lastname: 'Wanjiku') }
     let(:invitation) { event.invitations.build(user_id: invitee.id) }
     let(:attended_event) { event.user_attended_events.create(user_id: invitee.id) }
 
